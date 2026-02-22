@@ -1,74 +1,69 @@
 <!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Gallery - Raven's Portfolio</title>
-    </head>
+<html lang="en">
+<head>
+    <title>Gallery - Raven's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio-style.css">
+</head>
+<body>
 
-    <body bgcolor="#f0f0f0">
-        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-            <tr>
-                <td bgcolor="#1a3651" height="80" align="center">
-                    <table border="0" cellpadding="10" cellspacing="0" width="900">
-                        <tr>
-                            <td width="30%">
-                                <font color="white" size="5"><strong>MY PORTFOLIO</strong></font>
-                            </td>
-                            <td width="70%" align="right">
-                                <a href="index.html" style="color: white; text-decoration: none; margin: 0 15px;">HOME</a>
-                                <a href="About.html" style="color: white; text-decoration: none; margin: 0 15px;">ABOUT</a>
-                                <a href="Gallery.html" style="color: white; text-decoration: none; margin: 0 15px;">GALLERY</a>
-                                <a href="Contact.html" style="color: white; text-decoration: none; margin: 0 15px;">CONTACT</a>
-                                <a href="Contact.html" style="color: #1a3651; background-color: white; padding: 8px 20px; text-decoration: none; border-radius: 20px; margin-left: 15px;">Let's Talk</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+    <!-- NAVIGATION -->
+    <div class="nav-wrapper">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">MY PORTFOLIO</a>
+            <div class="nav-links">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="gallery.html">GALLERY</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="contact.html" class="btn-talk">Let's Talk</a>
+            </div>
+        </div>
+    </div>
 
-        <table border="0" cellpadding="40" cellspacing="0" width="900" align="center" bgcolor="white" style="margin-top: 30px; border-radius: 10px;">
-            <tr>
-                <td align="center">
-                    <h1 style="font-size: 36px; color: #333; margin-bottom: 10px;">Gallery</h1>
-                    <p style="color: #666; margin-bottom: 40px;">My Picture Collection</p>
-                    
-                    <h2 style="color: #333; border-bottom: 2px solid #667eea; padding-bottom: 10px; text-align: left; margin-bottom: 20px;">Image Gallery</h2>
-                    
-                    <table border="0" cellpadding="15" cellspacing="15" width="100%">
-                        <tr>
-                            <td width="33%" align="center" bgcolor="#f8f9fa" style="border-radius: 10px; padding: 20px;">
-                                <img src="1.jpg" width="200" height="200" alt="Sample Image 1" style="border-radius: 10px; border: 3px solid #667eea;">
-                                <p style="color: #666; font-size: 14px;">USeP liyag Volleyball Club</p>
-                            </td>
-                            <td width="33%" align="center" bgcolor="#f8f9fa" style="border-radius: 10px; padding: 20px;">
-                                <img src="2.jpg" width="200" height="200" alt="Sample Image 2" style="border-radius: 10px; border: 3px solid #667eea;">
-                                <p style="color: #666; font-size: 14px;">DRRRU Paskuhan Duty</p>
-                            </td>
-                            <td width="33%" align="center" bgcolor="#f8f9fa" style="border-radius: 10px; padding: 20px;">
-                                <img src="3.jpg" width="200" height="200" alt="Sample Image 3" style="border-radius: 10px; border: 3px solid #667eea;">
-                                <p style="color: #666; font-size: 14px;">UERSC Emergency Response Training</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="33%" align="center" bgcolor="#f8f9fa" style="border-radius: 10px; padding: 20px;">
-                                <img src="4.jpg" width="200" height="200" alt="Sample Image 4" style="border-radius: 10px; border: 3px solid #667eea;">
-                                <p style="color: #666; font-size: 14px;">DRRRU Fire Brigade Training</p>
-                            </td>
-                            <td width="33%" align="center" bgcolor="#f8f9fa" style="border-radius: 10px; padding: 20px;">
-                                <img src="6.jpg" width="200" height="200" alt="Sample Image 5" style="border-radius: 10px; border: 3px solid #667eea;">
-                                <p style="color: #666; font-size: 14px;">DRRRU Accreditation/Recognition</p>
-                            </td>
-                            <td width="33%" align="center" bgcolor="#f8f9fa" style="border-radius: 10px; padding: 20px;">
-                                <img src="8.jpg" width="200" height="200" alt="Sample Image 6" style="border-radius: 10px; border: 3px solid #667eea;">
-                                <p style="color: #666; font-size: 14px;">Guild of Peer Facilitators</p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+    <div class="page-content">
 
-        <br><br>
-    </body>
+        <!-- GALLERY CARD -->
+        <div class="card">
+            <h1>Gallery</h1>
+            <p style="color: #666; margin-bottom: 30px;">My Picture Collection</p>
 
+            <h2>Image Gallery</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="1.jpg" alt="USeP liyag Volleyball Club">
+                    <p>USeP liyag Volleyball Club</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="2.jpg" alt="DRRRU Paskuhan Duty">
+                    <p>DRRRU Paskuhan Duty</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="3.jpg" alt="UERSC Emergency Response Training">
+                    <p>UERSC Emergency Response Training</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="4.jpg" alt="DRRRU Fire Brigade Training">
+                    <p>DRRRU Fire Brigade Training</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="6.jpg" alt="DRRRU Accreditation/Recognition">
+                    <p>DRRRU Accreditation/Recognition</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="8.jpg" alt="Guild of Peer Facilitators">
+                    <p>Guild of Peer Facilitators</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="site-footer">
+        <p>© 2025 Raven Villarante. All Rights Reserved.</p>
+    </div>
+
+</body>
 </html>
